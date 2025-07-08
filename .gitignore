@@ -1,0 +1,37 @@
+# Thư mục build / output
+build/
+dist/
+out/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+
+# Node.js
+frontend/node_modules/
+
+# Flutter
+.dart_tool/
+.packages
+.pub-cache/
+android/.gradle/
+ios/Pods/
+
+# VSCode / JetBrains
+.vscode/
+.idea/
+
+# Tệp bí mật
+.env
+*.key
+*.pem
+credentials.json
+
+# Tệp log, tạm
+*.log
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
