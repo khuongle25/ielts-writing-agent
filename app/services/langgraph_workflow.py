@@ -1,4 +1,5 @@
 from langgraph.graph import StateGraph, END
+from langgraph.graph.graph import CompiledGraph
 from langchain.schema import BaseMessage
 from typing import TypedDict, Annotated, Dict, Any
 import time
@@ -21,7 +22,7 @@ class IELTSAnalysisWorkflow:
         self.gemini_service = GeminiService()
         self.workflow = self._create_workflow()
     
-    def _create_workflow(self) -> StateGraph:
+    def _create_workflow(self) -> CompiledGraph:
         """
         Tạo LangGraph workflow cho việc phân tích IELTS Writing Task 1
         
