@@ -160,3 +160,4 @@ The AI generates essays following official IELTS format:
    - Specific figures and comparisons
    - Logical grouping of information
 
+![alt text](<Screenshot from 2025-07-09 02-55-26.png>)
